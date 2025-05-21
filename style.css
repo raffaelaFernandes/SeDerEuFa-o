@@ -1,0 +1,92 @@
+* {
+
+    font-family: "Roboto", sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    background-color: #ECFAE5;
+}
+
+.container{
+    background-color: #FFFDF6;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px gray;
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+
+}
+
+.container p{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    margin:  20px 0;
+}
+
+.container span{
+    font-size: 14px;
+}
+
+.container a{
+    background-color: #E8E8E8;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 5px;
+    color: #615555;
+}
+
+.container a:hover{
+    color: #A0C878 ;
+}
+.senha{
+    background-color: #FFFDF6 !important;
+    font-size: 15px !important;
+    text-decoration-line: none;
+}
+
+
+
+.container .forms button{
+    background-color: #A0C878;
+    color: #FFFDF6;
+    font-size: 14px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 1px 2px rgb(187, 187, 187);
+    letter-spacing: 0.5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.container button{
+    background-color: #fffdf6;
+    color: #FFFDF6;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+      letter-spacing: 0.5px;
+    margin-top: 5px;
+    cursor: pointer;
+    border: #FFFDF6;
+
+}
+
+.container form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
