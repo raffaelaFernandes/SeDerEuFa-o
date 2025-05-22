@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tarefas.css">
+    <script src="tarefas.js" defer></script>
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <title>Início</title>
+</head>
+
+<body>
+    <section class="container">
+        <nav id="sidebar">
+            <div class="menu">
+                <h3>Menu</h3>
+            </div>
+            <div class="pesquisar">
+                <input type="text" placeholder="Pesquisar" id="searchInput">
+            </div>
+
+            <div class="lista-geral">
+                <div class="tarefas">
+                    <h5>Tarefas</h5>
+                    <a href="#">Todas as tarefas</a>
+                    <a href="#hoje.html">Hoje</a>
+                    <a href="#calendario.html">Calendário</a>
+                    <a href="#anotacoes.html">Anotações</a>
+                </div>
+                <h5>Listas</h5>
+            </div>
+            <div class="sair">
+                <a href=""><i class="ph ph-sign-out"></i> Sair</a>
+            </div>
+        </nav>
+
+
+        <article>
+            <h2>Todas as tarefas</h2>
+            <div class="lista-hoje">
+                <h3>Hoje</h3>
+                <div class="add-tarefa" id="btnNovaTarefa">
+                    <i class="ph ph-plus"></i>
+                    <span>Adicione uma nova tarefa</span>
+                </div>
+            </div>
+        </article>
+    </section>
+</body>
+
+</html>

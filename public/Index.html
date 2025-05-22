@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/phosphor-icons"></script>
+
+    <title>Se der eu faço</title>
+</head>
+
+<body>
+
+    <section class="container">
+        <div class="form-container signUp">
+            <form action="http://localhost:3000/cadastro" method="post">
+                <h1>Criar conta</h1>
+                <div class="icons">
+                    <a href="#"><i class="ph ph-google-logo"></i></a>
+                    <a href="#"><i class="ph ph-facebook-logo"></i></a>
+                    <a href="#"><i class="ph ph-github-logo"></i></a>
+                    <a href="#"><i class="ph ph-linkedin-logo"></i></a>
+                </div>
+                <span>Ou use o seu email para criar sua conta</span>
+                <input type="text" name="nome" placeholder="Nome">
+                <input type="email" name="email" placeholder="Email">
+                <input type="password" name="senha" placeholder="Senha">
+                <button class="botao1">SIGN UP</button>
+
+            </form>
+        </div>
+        <div class="form-container signIn">
+            <form action="http://localhost:3000/login" method="post">
+                <h1>Sign In</h1>
+                <div class="icons">
+                    <a href="#"><i class="ph ph-google-logo"></i></a>
+                    <a href="#"><i class="ph ph-facebook-logo"></i></a>
+                    <a href="#"><i class="ph ph-github-logo"></i></a>
+                    <a href="#"><i class="ph ph-linkedin-logo"></i></a>
+                </div>
+                <span>seu nome de usuário ou seu email</span>
+                <input type="email" name="email" placeholder="Email">
+                <input type="password" name="senha" placeholder="Senha">
+                <a href="#" class="senha">Esqueceu sua senha?</a>
+                <button class="botao1">SIGN IN</button>
+            </form>
+        </div>
+        <div class="janela-container">
+            <div class="janela">
+                <div class="janela-painel janela-esquerda">
+                    <h1>Bem-Vindo(a)!</h1>
+                    <p>Cadastre-se aqui para aproveitar todos os benefícios do site.</p>
+                    <button class="botao" id="signUp">CADASTRE-SE</button>
+                </div>
+
+                <div class="janela-painel janela-direita">
+                    <h1>Bem-Vindo(a) de volta!</h1>
+                    <p>Já tem uma conta? Basta logar para encontrar suas listas novamente.</p>
+                    <button class="botao" id="signIn">SIGN IN</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+    <script src="script.js" defer></script>
+</html>
