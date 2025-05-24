@@ -1,0 +1,181 @@
+* {
+
+    font-family: "Roboto", sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    background-color: #ECFAE5;
+}
+
+section {
+    margin-top: 90px;
+}
+
+nav {
+    background-color: #F3F3F3;
+    border-radius: 20px;
+    width: 768px;
+    max-width: 25%;
+    min-height: 460px;
+    margin: 10px 0 10px 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    transition: left 0.3s ease;
+    z-index: 1000;
+}
+
+.container {
+    background-color: #FFFDF6;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px gray;
+    position: relative;
+
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* NAV */
+.lista-geral h5 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #575757;
+    margin-left: 10px;
+
+}
+
+.menu {
+    color: #575757;
+    display: flex;
+}
+
+.menu h3 {
+    padding: 10px;
+}
+
+.pesquisar {
+    padding: 0 8px 0 5px; 
+}
+
+.pesquisar input {
+    background-color: #E8E8E8;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+.tarefas {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0 15px;
+
+}
+
+.tarefas a {
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.sair {
+    margin-top: auto;
+    flex-direction: column;
+    position: absolute;
+    bottom: 30px;
+    margin-left: 30px;
+}
+
+.sair a {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* TAREFAS */
+
+article {
+    flex: 1;
+    padding: 20px;
+}
+
+article h2,
+article h3 {
+    color: #434343;
+}
+article h2{
+    margin-bottom: 20px;
+}
+
+article h3{
+    font-size: 17px;
+    padding: 5px 0 5px 15px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.btn{
+    cursor: pointer;
+}
+
+.mesAno{
+    font-size: 25px;
+    color: #434343;
+    font-weight: bolder;
+
+}
+
+.semana, .dias{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dias{
+    height: 200px;
+}
+
+.semana div, .dias div{
+    width: 14.28%;
+    text-align: center;
+   padding: 20px 0;
+}
+
+.dias div{
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+.dias div:hover{
+    background-color: #eeeeee;
+   
+}
+
+.dias .fade{
+    color: #555;
+}
+
+.dias .today {
+    background-color: #FAA4BD;
+    color: white;
+}
