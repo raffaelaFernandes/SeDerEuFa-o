@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="anotacoes.css">
-    <script src="tarefas.js" defer></script>
+    <script src="anotacoes.js" defer></script>
     <script src="https://unpkg.com/phosphor-icons"></script>
-    <title>Hoje</title>
+    <title>Anotações</title>
 </head>
 
 <body>
     <section class="container">
+        
         <nav id="sidebar">
             <div class="menu">
                 <h3>Menu</h3>
@@ -28,7 +29,7 @@
                     <a href="/public/calendario.html">Calendário</a>
                     <a href="/public/anotacoes.html">Anotações</a>
                 </div>
-                <h5>Listas</h5>
+                
             </div>
             <div class="sair">
                 <a href=""><i class="ph ph-sign-out"></i> Sair</a>
@@ -37,8 +38,37 @@
 
 
         <article>
-            <h2>Anotações</h2>
-           
+            <header>
+                <h2>Anotações</h2>
+            </header>
+            <div class="popup-box">
+                <div class="popup">
+                    <div class="content">
+                        <header>
+                            <p>Adicione uma nova nota</p>
+                            <i class="ph ph-x"></i>
+                        </header>
+                        <form action="#">
+                            <div class="row titulo">
+                                <label>Titulo</label>
+                                <input type="text">
+                            </div>
+                               <div class="row descricao">
+                                <label>Descrição</label>
+                                <textarea name="" id=""></textarea>
+                            </div>
+                            <button>Adicionar nota</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper">
+                <li class="add-box">
+                    <div class="icon"><i class="ph ph-plus"></i></div>
+                    <p>Adicionar nova nota</p>
+                </li>
+               
+
         </article>
     </section>
 </body>

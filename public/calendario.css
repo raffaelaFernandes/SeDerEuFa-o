@@ -150,6 +150,11 @@ article h3{
     flex-wrap: wrap;
 }
 
+.semana{
+    color: #7c4152;
+    font-weight: bold;
+}
+
 .dias{
     height: 200px;
 }
